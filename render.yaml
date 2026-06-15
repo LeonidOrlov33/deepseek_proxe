@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: deepseek-proxe
+    env: node
+    buildCommand: ""
+    startCommand: node server.js
+    plan: free
