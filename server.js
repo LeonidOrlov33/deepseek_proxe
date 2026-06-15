@@ -16,7 +16,7 @@ function askDeepSeek(prompt, systemPrompt) {
                 { role: 'system', content: systemPrompt || 'You are a helpful assistant.' },
                 { role: 'user', content: prompt }
             ],
-            model: 'deepseek-chat',
+            model: 'deepseek-v4-pro',
             stream: false,
             temperature: 0.7,
             max_tokens: 4000
